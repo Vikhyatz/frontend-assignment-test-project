@@ -1,0 +1,175 @@
+{
+    "filters": {
+    "categories": [
+      "Singer",
+      "DJ",
+      "Speaker",
+      "Dancer"
+    ],
+    "locations": [
+      "New York, NY",
+      "Chicago, IL",
+      "Houston, TX",
+      "Los Angeles, CA",
+      "Miami, FL",
+      "San Francisco, CA",
+      "Phoenix, AZ",
+      "Austin, TX",
+      "Seattle, WA",
+      "Atlanta, GA",
+      "Denver, CO",
+      "Philadelphia, PA",
+      "Boston, MA",
+      "Orlando, FL",
+      "Dallas, TX",
+      "San Diego, CA",
+      "Las Vegas, NV",
+      "Detroit, MI",
+      "Portland, OR",
+      "Tampa, FL"
+    ],
+    "maxPrice": 900
+  },
+    "artists": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "category": "Singer",
+      "price": 500,
+      "location": "New York, NY"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "category": "DJ",
+      "price": 800,
+      "location": "Chicago, IL"
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "category": "Speaker",
+      "price": 400,
+      "location": "Houston, TX"
+    },
+    {
+      "id": 4,
+      "name": "Lily Chen",
+      "category": "Dancer",
+      "price": 600,
+      "location": "Los Angeles, CA"
+    },
+    {
+      "id": 5,
+      "name": "Carlos Rivera",
+      "category": "Singer",
+      "price": 750,
+      "location": "Miami, FL"
+    },
+    {
+      "id": 6,
+      "name": "Ravi Mehta",
+      "category": "Speaker",
+      "price": 300,
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": 7,
+      "name": "Anna Garcia",
+      "category": "Dancer",
+      "price": 550,
+      "location": "Phoenix, AZ"
+    },
+    {
+      "id": 8,
+      "name": "Jake Thompson",
+      "category": "DJ",
+      "price": 900,
+      "location": "Austin, TX"
+    },
+    {
+      "id": 9,
+      "name": "Sara Kim",
+      "category": "Singer",
+      "price": 450,
+      "location": "Seattle, WA"
+    },
+    {
+      "id": 10,
+      "name": "Omar Farouk",
+      "category": "Speaker",
+      "price": 350,
+      "location": "Atlanta, GA"
+    },
+    {
+      "id": 11,
+      "name": "Emily White",
+      "category": "Dancer",
+      "price": 620,
+      "location": "Denver, CO"
+    },
+    {
+      "id": 12,
+      "name": "Victor Hugo",
+      "category": "DJ",
+      "price": 700,
+      "location": "Philadelphia, PA"
+    },
+    {
+      "id": 13,
+      "name": "Naomi Lee",
+      "category": "Singer",
+      "price": 520,
+      "location": "Boston, MA"
+    },
+    {
+      "id": 14,
+      "name": "Samuel Green",
+      "category": "Speaker",
+      "price": 480,
+      "location": "Orlando, FL"
+    },
+    {
+      "id": 15,
+      "name": "Tina Brooks",
+      "category": "Dancer",
+      "price": 650,
+      "location": "Dallas, TX"
+    },
+    {
+      "id": 16,
+      "name": "David Zhang",
+      "category": "DJ",
+      "price": 850,
+      "location": "San Diego, CA"
+    },
+    {
+      "id": 17,
+      "name": "Isabella Rossi",
+      "category": "Singer",
+      "price": 700,
+      "location": "Las Vegas, NV"
+    },
+    {
+      "id": 18,
+      "name": "Mohammed Alvi",
+      "category": "Speaker",
+      "price": 420,
+      "location": "Detroit, MI"
+    },
+    {
+      "id": 19,
+      "name": "Haruki Tanaka",
+      "category": "Dancer",
+      "price": 580,
+      "location": "Portland, OR"
+    },
+    {
+      "id": 20,
+      "name": "Chloe Nguyen",
+      "category": "DJ",
+      "price": 780,
+      "location": "Tampa, FL"
+    }
+  ]
+}
