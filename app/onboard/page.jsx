@@ -25,7 +25,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm, Controller, FormProvider } from 'react-hook-form'
 
 // custom component for dropdown + checkbox UI combo
-import FormDropDown from '@/components/formDropDown'
+import FormDropDown from '@/components/FormDropDown'
 
 
 const Page = () => {

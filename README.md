@@ -48,3 +48,24 @@ my-app/
 ├── styles/
 │   └── globals.css
 ├── README.md
+```
+
+## ✅ Tech Stack
+
+- Framework: Next.js 14 (App Router)
+- Styling: Tailwind CSS
+- Forms: React Hook Form
+- Validation: Yup
+- UI/UX: Accessible components (Select, Table, etc.)
+- Hosting: Vercel
+
+---
+
+## 📌 Notes
+- No backend – form data is printed to console / mock API.
+- SEO metadata added in app/layout.js.
+- Basic responsiveness tested across major breakpoints.
+- Codebase includes comments and function headers where relevant.
+
+## 👨‍💻Author
+Made with ❤️ by Vikhyat Gupta
