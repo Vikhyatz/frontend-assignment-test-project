@@ -1,23 +1,23 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 
-export const metadata = {
-  title: "Artistly | Book Top Performers",
-  description: "Discover and book artists for your events, from singers to speakers.",
-  keywords: ["Artist booking", "Event performers", "DJ", "Singer", "Artistly"],
-  openGraph: {
-    title: "Artistly - Book Artists for Any Event",
-    description: "Browse top artists and book easily with Artistly.",
-    siteName: "Artistly",
-    type: "website",
-  },
-};
+// page transition using framer motion
+import { AnimatePresence, motion } from 'framer-motion';
+
 
 export default function Home() {
   return (
     <>
-      
-
+    {/* framer motion page animations fade-in, fade out */}
+    <AnimatePresence mode="wait">
+      <motion.div
+        key={typeof window !== 'undefined' ? window.location.pathname : 'server'}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.4 }}
+      >
       {/* hero content */}
       <section className="text-gray-400 bg-gray-900 body-font">
         <div className="container mx-auto flex px-5 py-24 md:py-45 md:flex-row flex-col items-center">
@@ -30,7 +30,7 @@ export default function Home() {
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <Image
               className="object-cover object-center rounded"
-              alt="hero"
+              alt="hero image"
               src="/hero.png"
               width={500}
               height={500}
@@ -113,7 +113,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+      </motion.div>
+      </AnimatePresence>
     </>
   );
 }

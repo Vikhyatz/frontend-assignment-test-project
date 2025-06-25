@@ -1,6 +1,11 @@
 # Artistly – Talent Onboarding Platform 🎤🎨
 
 Artistly is a Next.js 14 (App Router) application that allows managers to onboard and manage artists. It supports artist registration with validated forms, listing with filters, and a simple dashboard for submissions.
+---
+
+## 🔗 Live Demo
+
+[https://frontend-assignment-test-project-47.vercel.app/](https://frontend-assignment-test-project-47.vercel.app/)
 
 
 ## 🧠 Features
@@ -50,6 +55,8 @@ my-app/
 ├── README.md
 ```
 
+---
+
 ## ✅ Tech Stack
 
 - Framework: Next.js 14 (App Router)
@@ -66,6 +73,11 @@ my-app/
 - SEO metadata added in app/layout.js.
 - Basic responsiveness tested across major breakpoints.
 - Codebase includes comments and function headers where relevant.
+- bonus features added:
+  - lazy loading
+  - framer motion page transitions
+
+---
 
 ## 👨‍💻Author
 Made with ❤️ by Vikhyat Gupta
