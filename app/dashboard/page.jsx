@@ -30,7 +30,7 @@ export function Page() {
                             <TableHead className="w-50">Category</TableHead>
                             <TableHead className="w-50">City</TableHead>
                             <TableHead className="w-50">Fee</TableHead>
-                            <TableHead className="w-50">Button</TableHead>
+                            <TableHead className="w-50">Call</TableHead>
                         </TableRow>
                     </TableHeader>
                     <TableBody>
@@ -41,7 +41,7 @@ export function Page() {
                                 <TableCell className="w-50">{artist.category}</TableCell>
                                 <TableCell className="w-50">{artist.location}</TableCell>
                                 <TableCell className="w-50">{artist.price}</TableCell>
-                                <TableCell className="w-50"><Button variant="outline">Action Button</Button></TableCell>
+                                <TableCell className="w-50"><Button variant="outline">Call Artist</Button></TableCell>
                             </TableRow>
                         ))}
                     </TableBody>

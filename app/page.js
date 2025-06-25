@@ -12,7 +12,6 @@ export default function Home() {
     {/* framer motion page animations fade-in, fade out */}
     <AnimatePresence mode="wait">
       <motion.div
-        key={typeof window !== 'undefined' ? window.location.pathname : 'server'}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -56,8 +55,8 @@ export default function Home() {
                   className="h-96 rounded w-full object-cover object-center mb-6 hover:scale-105 transition-all duration-200"
                   src="/ctgry1.png"
                   alt="singers"
-                  width={100}
-                  height={100}
+                  width={500}
+                  height={384}
                 />
                 <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">Category 1</h3>
                 <h2 className="text-lg text-white font-medium title-font mb-4">Singers</h2>
@@ -71,8 +70,8 @@ export default function Home() {
                   className="h-96 rounded w-full object-cover object-center mb-6 hover:scale-105 transition-all duration-200"
                   src="/ctgry2.png"
                   alt="dancers"
-                  width={100}
-                  height={100}
+                  width={500}
+                  height={384}
                 />
                 <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">Categor2</h3>
                 <h2 className="text-lg text-white font-medium title-font mb-4">Dancers</h2>
@@ -86,8 +85,8 @@ export default function Home() {
                   className="h-96 rounded w-full object-cover object-center mb-6 hover:scale-105 transition-all duration-200"
                   src="/ctgry3.png"
                   alt="DJs"
-                  width={100}
-                  height={100}
+                  width={500}
+                  height={384}
                 />
                 <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">Category 3</h3>
                 <h2 className="text-lg text-white font-medium title-font mb-4">DJs</h2>
@@ -101,8 +100,8 @@ export default function Home() {
                   className="h-96 rounded w-full object-cover object-center mb-6 hover:scale-105 transition-all duration-200"
                   src="/ctgry4.png"
                   alt="speakers"
-                  width={100}
-                  height={100}
+                  width={500}
+                  height={384}
                 />
                 <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">Category 4</h3>
                 <h2 className="text-lg text-white font-medium title-font mb-4">Speakers</h2>
