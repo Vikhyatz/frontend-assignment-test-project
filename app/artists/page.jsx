@@ -9,9 +9,6 @@ import artists from "../../data/artists.json"
 
 import FilterBlock from "@/components/FilterBlock"
 
-// page transition using framer motion
-import { AnimatePresence, motion } from 'framer-motion';
-
 const page = () => {
     const [category, setCategory] = useState(null)
     const [location, setLocation] = useState(null)
@@ -27,15 +24,6 @@ const page = () => {
         })
 
     return (
-        // framer motion page animations fade-in, fade out
-        <AnimatePresence mode="wait">
-            <motion.div
-                key={typeof window !== 'undefined' ? window.location.pathname : 'server'}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.4 }}
-            >
                 <section className="text-black-400 bg-neutral-50 body-font">
                     <div className="container px-5 py-24 mx-auto flex flex-col items-center">
                         <div className="flex flex-col text-center w-full mb-20">
@@ -81,8 +69,6 @@ const page = () => {
                         )}
                     </div>
                 </section>
-            </motion.div>
-        </AnimatePresence >
     )
 }
 
