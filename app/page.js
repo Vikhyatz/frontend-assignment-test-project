@@ -73,7 +73,7 @@ export default function Home() {
                   width={500}
                   height={384}
                 />
-                <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">Categor2</h3>
+                <h3 className="tracking-widest text-indigo-400 text-xs font-medium title-font">Category 2</h3>
                 <h2 className="text-lg text-white font-medium title-font mb-4">Dancers</h2>
                 <p className="text-base">Bring energy and excitement to your event with talented dancers from various styles and genres.</p>
                 <Link href="/artists" className="cursor-pointer inline-flex text-white bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-5">Explore Dancers</Link>
